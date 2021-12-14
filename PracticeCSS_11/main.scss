@@ -1,0 +1,133 @@
+@import 'base';
+
+.wrapper{
+   width: 100%;
+   height: auto;
+   background-color: rgb(236, 236, 236); 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding-bottom: 50px;
+}
+.headText{
+   text-align: center;
+   color: #000;
+   font-size: 45px;
+   margin: 30px 0px
+}
+.main{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    &Box{
+        width: 30%;
+        height: 450px;
+        margin: 30px 20px;
+        background-color: white;
+        border-radius: 20px;
+        &Image{
+            width: 100%;
+            height: 55%;
+            position: relative;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            background-size: 100% 100%;
+            &Price{
+                background-color: greenyellow;
+                position: absolute;
+                bottom: 0px;
+                left: 25px;
+                width: 110px;
+                height: 30px;
+                color: white;
+                text-align: center;
+                padding-top: 2px;
+                font-size: 24px;
+                &__Cross{
+                    font-size: 19px;
+                    text-decoration-line: line-through;
+                }
+            }
+        }
+        &Info{
+            width: 94%;
+            height: 35%;
+            padding: 30px 10px;
+            &__Tour{
+                color: #000;
+                font-size: 24px;
+                margin-bottom: 10px;
+            }
+            &__Hotel{
+                color: #808080;
+                font-size: 18px;
+                margin-bottom: 60px;
+            }
+            &Footer{
+                width: 90%;
+                height: 20%;
+                display: flex;
+                justify-content: space-between;
+                &Left{
+                    display: flex;
+                    justify-content: space-between;
+                    width: 40%;
+                    &__Reit{
+                        background-color: #ffa133;
+                        border-radius: 20px;
+                        font-weight: 600;
+                        font-size: 18px;
+                        color: white;
+                        width: 50px;
+                        height: 20px;
+                        padding-top: 2px;
+                        text-align: center;
+                    }
+                    &__Reviems{
+                        color: #808080;
+                        font-size: 18px;
+                    }
+                }
+                &Right{
+                    display: flex;
+                    justify-content: space-between;
+                    width: 27%;
+                    &__Calendar{
+                        margin-top: -5px;
+                    }
+                    &__Days{
+                        color: #808080;
+                        font-size: 18px;
+                    }
+                }
+                
+            }
+        }
+    }
+}
+.image1{
+    background-image: url(tour-list-2-1-365x248.jpg);
+}
+.image2{
+    background-image: url(tour-list-2-2-365x248.jpg);
+}
+.image3{
+    background-image: url(tour-list-2-3-365x248.jpg);
+}
+.image4{
+    background-image: url(tour-list-2-4-365x248.jpg);
+}
+.image5{
+    background-image: url(tour-list-2-5-365x248.jpg);
+}
+.image6{
+    background-image: url(tour-list-2-6-365x248.jpg);
+}
+.footerText{
+    color: #808080;
+    font-size: 14px;
+    text-decoration-line: underline;
+}
+    
